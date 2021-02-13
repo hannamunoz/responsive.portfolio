@@ -13,19 +13,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!-- Link to google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patrick Hand">
+
     <title>Portfolio</title>
 </head>
 
-<body>
-    <!-- Background Image -->
-    <div id="background">
-        <img src="../images/background.png" class="stretch" alt="" />
-    </div>
+<body style="background-color: #f0e4d7;">
 
     <!-- Navbar Bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-light mb-1" style="background-color: #e3f2fd;">
+    <nav class="navbar navbar-expand-lg navbar-light mb-1 border" style="background-color: #f3d8d1;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">Hanna Munoz</a>
+            <a class="navbar-brand text-light" href="../index.html">Hanna Munoz</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,54 +46,57 @@
     </nav>
 
     <!-- Portfolio Container -->
-    <div class="container-sm p-4">
+    <div class="container-sm p-4 rounded">
 
         <!-- Header -->
-        <div class="container-sm p-3 border" style="background-color: #c8a2c8;">
-            <h1 class="display-4 break">Portfolio</h1>
+        <div class="container-sm p-3 border" style="background-color: #c7BBBC;">
+            <h1 class="display-4 break text-light cav">Portfolio</h1>
 
-            <!-- First Row -->
-            <div class="row">
-                <div class="col-md-4 mx-auto mb-3">
-                    <img src="../images/placeholder.png" class="mb-3 img-fluid rounded d-block m-auto img-thumbnail"
-                        alt="Placeholder image">
-                </div>
-                <div class="col-md-4 mx-auto mb-3">
-                    <img src="../images/placeholder.png" class="mb-3 img-fluid rounded d-block m-auto img-thumbnail"
-                        alt="Placeholder image">
+            <!-- First Card -->
+            <div class="col-md-6 mx-auto">
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="../images/dinner-date.png" alt="Dinner-Date image">
+                    <div class="card-body">
+                        <h5 class="card-title">Dinner Date</h5>
+                        <p class="card-text">This project consisted of making an application that allowed you to select
+                            dinner and a movie with multiple API calls.</p>
+                        <a href="https://thetiiiim.github.io/evening-planner/" class="link" target="_blank">Deployed Site</a>
+                        <a href="https://github.com/TheTiiiim/evening-planner" class="p-3 link" target="_blank">GitHub Repository</a>
+                    </div>
                 </div>
             </div>
 
-            <!-- Second Row -->
-            <div class="row">
-                <div class="col-md-4 mx-auto mb-3">
-                    <img src="../images/placeholder.png" class="my-3 img-fluid rounded d-block m-auto img-thumbnail"
-                        alt="Placeholder image">
-                </div>
-                <div class="col-md-4 mx-auto mb-3">
-                    <img src="../images/placeholder.png" class="my-3 img-fluid rounded d-block m-auto img-thumbnail"
-                        alt="Placeholder image">
+            <!-- Second Card -->
+            <div class="col-md-6 mx-auto pt-4">
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="../images/code-quiz.png" alt="Code Quiz image">
+                    <div class="card-body">
+                        <h5 class="card-title">Coding Quiz</h5>
+                        <p class="card-text">This project used javascript and localStorage to keep highscores for participants.</p>
+                        <a href="https://hannamunoz.github.io/java.quiz/" class="link" target="_blank">Deployed Site</a>
+                        <a href="https://github.com/hannamunoz/java.quiz" class="p-3 link" target="_blank">GitHub Repository</a>
+                    </div>
                 </div>
             </div>
 
-            <!-- Third Row -->
-            <div class="row">
-                <div class="col-md-4 mx-auto mb-3">
-                    <img src="../images/placeholder.png" class="my-3 img-fluid rounded d-block m-auto img-thumbnail"
-                        alt="Placeholder image">
-                </div>
-                <div class="col-md-4 mx-auto mb-3">
-                    <img src="../images/placeholder.png" class="my-3 img-fluid rounded d-block m-auto img-thumbnail"
-                        alt="Placeholder image">
+            <!-- Third Card -->
+            <div class="col-md-6 mx-auto pt-4 pb-3">
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="../images/scheduler.png" alt="Scheduler image">
+                    <div class="card-body">
+                        <h5 class="card-title">Event Scheduler</h5>
+                        <p class="card-text">This project used javascript moment() and localStorage to schedule events during the work day.</p>
+                        <a href="https://hannamunoz.github.io/event.schedule/" class="link" target="_blank">Deployed Site</a>
+                        <a href="https://github.com/hannamunoz/event.schedule" class="p-3 link" target="_blank">GitHub Repository</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+
 
     <!-- Sticky Footer -->
     <div class="container-fluid">
-        <footer class="fixed-bottom bg-light footer-font-style text-muted border border-dark">
-            <h4 class="text-center">Copyright &#169; Hanna Munoz</h4>
+        <footer class="fixed-bottom footer-font-style text-muted border" style="background-color: #ced6e0;">
+            <h4 class="text-center text-light">Copyright &#169; Hanna Munoz</h4>
         </footer>
     </div>
 
