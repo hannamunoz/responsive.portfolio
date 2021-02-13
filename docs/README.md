@@ -1,4 +1,4 @@
-![Portfolio](../images/screen1.png)(../images/screen2.png)(../images/screen3.png)(../images/screen4.png)
+![Portfolio](../images/screen1.png)![Portfolio](../images/screen2.png)![Portfolio](../images/screen3.png)![Portfolio](../images/screen4.png)
 
 # Portfolio:
 
